@@ -1,3 +1,5 @@
+This is a fix for an issue that makes jamdict_data uninstallable on windows. It's just changing one line. This will never be updated, even if jamdict_data will!
+
 # Jamdict database
 
 A precompiled database that contains Jim Breen's JMdict, KanjiDic2, KRADFILE and JMnedict.
