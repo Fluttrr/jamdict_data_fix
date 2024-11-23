@@ -84,13 +84,9 @@ exec(read('jamdict_data/__version__.py'), pkg_info)
 
 
 setup(
-    name='jamdict_data',  # package file name (<package-name>-version.tar.gz)
+    name='jamdict_data_fix',  # package file name (<package-name>-version.tar.gz)
     version=pkg_info['__version__'],
     url=pkg_info['__url__'],
-    project_urls={
-        "Bug Tracker": "https://github.com/neocl/jamdict_data/issues",
-        "Source Code": "https://github.com/neocl/jamdict_data/"
-    },
     cmdclass=_cmdclass,
     keywords="nlp",
     license=pkg_info['__license__'],
